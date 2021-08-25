@@ -1,0 +1,1 @@
+SELECT processed FROM partners WHERE name=%(name)s AND execution_date='{{ ds }}'
